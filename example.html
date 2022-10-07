@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title >An example</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            table,th,td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th,td {
+                background-color: aquamarine;
+                height: 100px;
+                width: 200px;
+            }
+            #thcolor {
+                background-color: red;
+            }
+            .grad-button {
+                background-image: linear-gradient(to bottom right,navy,blue,aqua);
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        color: azure;
+        border-radius: 10px;
+        border: none;
+        display: block;
+
+            }
+        </style>
+    </head>
+    <header>
+    <body class="header-section">
+        <img class="header-image" src="images/header-image.jpg" alt="image">
+        <div class="header-description">
+            <h1 class="header-title">Example title</h1>
+            <p class="header-text">Example paragraph</p>
+            <button class="header-button">Example</button>
+        </div>
+        <div class="header-image-overlay"></div>
+    </header>
+    <nav> <button class="grad-button">GET STARTED</button></nav>
+    <section>
+        <table>
+            <tr>
+                <th id="thcolor">Company</th>
+                <th id="thcolor">Contract</th>
+                <th id="thcolor">Country</th>
+            </tr>
+            <tr>
+                <td>Alfred</td>
+                <td>Maria</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Commercial center</td>
+                <td>Ferancisco chang</td>
+                <td>Mexico</td>
+            </tr>
+
+        </table>
+    </section>
+    </body>
+</html>
